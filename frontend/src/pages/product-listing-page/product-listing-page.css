@@ -1,0 +1,91 @@
+.plp {
+  margin: 0 150px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  margin: 50px 35px;
+  font-size: 48px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.title span:nth-child(2) {
+  font-size: 16px;
+  color: #767677;
+}
+
+.products,
+.page-changer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 75px;
+}
+
+.page-changer {
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  margin: 5px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 290px;
+}
+
+.card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.plp .name,
+.plp .subTitle {
+  margin: 5px;
+}
+
+.name {
+  font-size: 14px;
+}
+
+.plp .subTitle {
+  font-size: 12px;
+  color: #767677;
+}
+
+.plp .price {
+  position: relative;
+  background-color: #e9ecef;
+  height: 32px;
+  margin-bottom: 10px;
+}
+
+.price span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 10px;
+  background-color: white;
+  padding: 2px 4px;
+  font-size: 14px;
+}
+
+.page-changer {
+  font-size: 14px;
+}
+
+.page-changer select {
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,179 @@
+.cart {
+  display: flex;
+  margin: 0 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid lightgray;
+}
+
+.cart-products {
+  width: 700px;
+  padding-right: 100px;
+  border-right: 1px solid lightgray;
+  min-height: 85vh;
+}
+
+.product-card-in-cart {
+  display: flex;
+  border: 1px solid black;
+  margin: 50px 0;
+  width: 750px;
+  height: 250px;
+}
+
+.cart-right {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 1vh;
+  padding: 25px;
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-title {
+  font-size: 48px;
+}
+
+.image-in-cart {
+  width: 250px;
+}
+
+.product-in-cart-title {
+  text-align: justify;
+  width: 100%;
+}
+
+.checkout-product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.product-in-cart-size {
+  margin-top: 10px;
+}
+
+.product-info-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-no-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.checkout-message {
+  font-size: 48px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+}
+
+.go-shopping {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.go-shopping:hover {
+  border: 2px solid black;
+  margin: -1px;
+}
+
+.cart-product-quantity-selector {
+  padding: 10px;
+}
+
+.product-info-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.remove-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.remove-item:hover {
+  cursor: pointer;
+  border: 2px solid black;
+  margin: -1px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.order-form input {
+  margin: 5px 0;
+  width: 250px;
+  height: 24px;
+  padding: 5px;
+  border-radius: 0%;
+  border: 1px solid lightgray;
+}
+
+.order-form input:hover,
+.order-form input:focus-visible {
+  border: 1px solid black;
+  border-radius: 0;
+  outline: none;
+}
+
+.order-form h4 {
+  margin: 10px 0;
+}
+
+div.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+div.checkbox input {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.order-btn {
+  margin: 10px 0;
+  height: 32px;
+  border-radius: 0;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.order-btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input.error {
+  border-color: red;
+}
+
+span.error {
+  font-size: 12px;
+  color: red;
+}
+
+span.hidden {
+  display: none;
+}
